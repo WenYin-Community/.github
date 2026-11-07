@@ -19,6 +19,7 @@ A localized build of the Zed editor with a fully automated AI translation pipeli
 
 - 📦 [Download the latest release](https://github.com/WenYin-Community/ZedG/releases/latest)
 - 📖 [Installation guide](https://github.com/WenYin-Community/ZedG#download--install)
+- 🤝 [Contributors welcome](https://github.com/WenYin-Community/ZedG#招募共同维护者) — join the organization for push access
 
 ## 📦 Packaging & Distribution
 
@@ -35,6 +36,8 @@ A localized build of the Zed editor with a fully automated AI translation pipeli
 
 - **[fedora-copa](https://github.com/WenYin-Community/fedora-copa)** — A Copr package assistant for the Fedora / DNF5 ecosystem, with a paru/yay-like search and install experience.
 - **[isomaster](https://github.com/WenYin-Community/isomaster)** — Graphical CD/ISO image editor for Linux and BSD.
+- **[rh-anaconda-installer](https://github.com/WenYin-Community/rh-anaconda-installer)** — Anaconda installer packages and build tooling for Fedora and RHEL-based distributions.
+- **[discuz-410](https://github.com/WenYin-Community/discuz-410)** — Community-maintained Discuz! fork updated for modern PHP environments.
 - **[discuz-2.5-sp1-php85](https://github.com/WenYin-Community/discuz-2.5-sp1-php85)** — Classic Discuz! 2.5F SP1 BBS ported to PHP 8.5 + MySQL 5.7.
 
 **Localization**
@@ -48,6 +51,10 @@ A localized build of the Zed editor with a fully automated AI translation pipeli
 - **[Ocean-P6](https://github.com/WenYin-Community/Ocean-P6)** — Ocean-themed SDDM login theme for KDE Plasma 6.
 - **[Lavanda-kde-theme](https://github.com/WenYin-Community/Lavanda-kde-theme)** — Clean and concise KDE Plasma 6 theme.
 - **[Lavanda-gtk-theme](https://github.com/WenYin-Community/Lavanda-gtk-theme)** — Elegant GTK 2/3/4 and GNOME Shell theme.
+
+**System & virtualization**
+
+- **[open-vm-tools-wayland](https://github.com/WenYin-Community/open-vm-tools-wayland)** — open-vm-tools branch with a native Wayland backend (copy/paste, drag & drop, file transfer).
 
 **Web & templates**
 
