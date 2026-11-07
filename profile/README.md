@@ -2,7 +2,7 @@
 
 # Wenyin Community
 
-**开源软件本地化 · 跨平台构建 · 自动发布**
+**Open-source localization · Cross-platform builds · Automated releases**
 
 [![ZedG](https://img.shields.io/github/v/release/WenYin-Community/ZedG?style=flat-square&label=ZedG)](https://github.com/WenYin-Community/ZedG/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/WenYin-Community/ZedG/total?style=flat-square)](https://github.com/WenYin-Community/ZedG/releases)
@@ -11,59 +11,86 @@
 
 </div>
 
-## 🚀 主要项目
+## 🚀 Featured
 
-### [ZedG — Zed 编辑器简体中文版](https://github.com/WenYin-Community/ZedG)
+### [ZedG — Simplified Chinese build of Zed](https://github.com/WenYin-Community/ZedG)
 
-Zed 编辑器的简体中文本地化构建：AI 驱动的全自动翻译与构建流水线，跟随上游版本持续更新，覆盖 Windows、Linux、macOS。
+A localized build of the Zed editor with a fully automated AI translation pipeline, continuously rebuilt from upstream releases for Windows, Linux, and macOS.
 
-- 📦 [下载最新版本](https://github.com/WenYin-Community/ZedG/releases/latest)
-- 📖 [安装说明](https://github.com/WenYin-Community/ZedG#下载安装)
+- 📦 [Download the latest release](https://github.com/WenYin-Community/ZedG/releases/latest)
+- 📖 [Installation guide](https://github.com/WenYin-Community/ZedG#download--install)
 
-### 打包与分发
+## 📦 Packaging & Distribution
 
-| 仓库 | 用途 |
+| Repository | Purpose |
 |---|---|
 | [scoop-zedg](https://github.com/WenYin-Community/scoop-zedg) | Windows Scoop bucket |
 | [homebrew-zedg](https://github.com/WenYin-Community/homebrew-zedg) | macOS Homebrew tap |
-| [zed-globalization](https://github.com/WenYin-Community/zed-globalization) | AUR / COPR 打包源 |
+| [zed-globalization](https://github.com/WenYin-Community/zed-globalization) | AUR / COPR packaging source |
+| [hokeshi-pkgs](https://github.com/WenYin-Community/hokeshi-pkgs) | Personal RPM & Pacman package repository |
 
-## 📦 快速安装
+## 🛠 Other Projects
 
-**Windows（Scoop）**
+**Linux & Fedora tools**
+
+- **[fedora-copa](https://github.com/WenYin-Community/fedora-copa)** — A Copr package assistant for the Fedora / DNF5 ecosystem, with a paru/yay-like search and install experience.
+- **[isomaster](https://github.com/WenYin-Community/isomaster)** — Graphical CD/ISO image editor for Linux and BSD.
+- **[discuz-2.5-sp1-php85](https://github.com/WenYin-Community/discuz-2.5-sp1-php85)** — Classic Discuz! 2.5F SP1 BBS ported to PHP 8.5 + MySQL 5.7.
+- **[harmonyOffice](https://github.com/WenYin-Community/harmonyOffice)** — Office supply requisition and management system built with HarmonyOS ArkTS, Flask, and MySQL.
+
+**Localization**
+
+- **[NsCDE](https://github.com/WenYin-Community/NsCDE)** — Simplified Chinese localization of the NsCDE desktop environment.
+- **[sourcebans180](https://github.com/WenYin-Community/sourcebans180)** — Chinese-localized SourceBans++ web theme built on Microsoft Fluent Design.
+- **[Sourcemod-Plugins-Chinese](https://github.com/WenYin-Community/Sourcemod-Plugins-Chinese)** — SourceMod plugins for Chinese language support.
+
+**Themes & desktop**
+
+- **[Ocean-P6](https://github.com/WenYin-Community/Ocean-P6)** — Ocean-themed SDDM login theme for KDE Plasma 6.
+- **[Lavanda-kde-theme](https://github.com/WenYin-Community/Lavanda-kde-theme)** — Clean and concise KDE Plasma 6 theme.
+- **[Lavanda-gtk-theme](https://github.com/WenYin-Community/Lavanda-gtk-theme)** — Elegant GTK 2/3/4 and GNOME Shell theme.
+
+**Web & templates**
+
+- **[wenyin-community.github.io](https://github.com/WenYin-Community/wenyin-community.github.io)** — Official community website, built with Bootstrap 5 with bilingual support.
+- **[hexo-template](https://github.com/WenYin-Community/hexo-template)** — Clean and customizable Hexo blog template.
+
+## ⚡ Quick Install (ZedG)
+
+**Windows (Scoop)**
 
 ```powershell
 scoop bucket add zedg https://github.com/WenYin-Community/scoop-zedg
 scoop install zedg
 ```
 
-**macOS（Homebrew，Apple Silicon）**
+**macOS (Homebrew, Apple Silicon)**
 
 ```bash
 brew tap WenYin-Community/zedg
 brew install --cask zedg
 ```
 
-**Arch Linux（AUR）**
+**Arch Linux (AUR)**
 
 ```bash
 yay -S zedg
 ```
 
-**Fedora / RHEL（COPR）**
+**Fedora / RHEL (COPR)**
 
 ```bash
 sudo dnf copr enable ruojiner/zedg
 sudo dnf install zedg
 ```
 
-## 🌐 关于
+## 🌐 About
 
-- 网站：[wenyinos.com](https://wenyinos.com)
-- 邮箱：[admin@wenyinos.com](mailto:admin@wenyinos.com)
+- Website: [wenyinos.com](https://wenyinos.com)
+- Email: [admin@wenyinos.com](mailto:admin@wenyinos.com)
 
 ---
 
 <div align="center">
-<sub>用自动化让开源软件更好地服务中文用户</sub>
+<sub>Automation that makes open source work better for Chinese users.</sub>
 </div>
