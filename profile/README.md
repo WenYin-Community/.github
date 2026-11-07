@@ -36,7 +36,6 @@ A localized build of the Zed editor with a fully automated AI translation pipeli
 - **[fedora-copa](https://github.com/WenYin-Community/fedora-copa)** — A Copr package assistant for the Fedora / DNF5 ecosystem, with a paru/yay-like search and install experience.
 - **[isomaster](https://github.com/WenYin-Community/isomaster)** — Graphical CD/ISO image editor for Linux and BSD.
 - **[discuz-2.5-sp1-php85](https://github.com/WenYin-Community/discuz-2.5-sp1-php85)** — Classic Discuz! 2.5F SP1 BBS ported to PHP 8.5 + MySQL 5.7.
-- **[harmonyOffice](https://github.com/WenYin-Community/harmonyOffice)** — Office supply requisition and management system built with HarmonyOS ArkTS, Flask, and MySQL.
 
 **Localization**
 
